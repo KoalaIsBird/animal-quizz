@@ -109,8 +109,7 @@ function App() {
     return (
         <div className='w-screen h-screen bg-blue-900 text-white p-4'>
             <h3 className='font-bold text-center'>
-                Essayez de deviner le nom de la famille de cet animal (try to guess the
-                name of the family of this animal):
+                Essayez de deviner le nom de la famille de cet animal:
             </h3>
             <img className='py-2 m-auto' src={taxonThisTime.image} height={100} />
             <Form
